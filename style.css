@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Staatliches&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Hind+Madurai:wght@300&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+h1, h2{
+    font-family: 'Fjalla One', sans-serif;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 300px;   
+    padding-right: 50px;
+    width: 80%;
+}
+
+.photos{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 200px;
+}
+
+img{
+    width: 250px;
+}
+
+.box{
+    width: 400px;
+    display: flex;
+    margin-left: 100px;   
+}
+
+.job{
+    
+    /* transform: rotate(90deg); */
+    writing-mode: vertical-rl;
+    text-transform: uppercase;
+    font-family: 'Hind Madurai', sans-serif;
+    /* margin-top: 65px; */
+}
+
+.descentrada{
+    padding-top: 50px;
+}
+
+.text{
+    width:50%;
+    margin-top: 1rem;
+    font-family: 'Hind Madurai', sans-serif;
+    font-size: large;
+}
+
+.name{
+    font-family: 'Staatliches', cursive;
+}
+
+footer{
+    margin: 25px ;
+    margin-top: 20px;
+}
+
+footer p{
+    margin-top: 20px;
+    text-align: center;
+}
+.line{
+    background: black;
+    width: 50%;
+    height: 2px;
+    margin-left: 450px;
+}
